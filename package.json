@@ -1,0 +1,28 @@
+{
+  "name": "controlbundler",
+  "version": "1.0.0",
+  "description": "This is a tool to build JavaScript modules for control.",
+  "main": "/javascript/webpack/entry.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack-dev-server"
+  },
+  "author": "Feng Ma @SSSI",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "~0.25.0",
+    "exports-loader": "^0.6.4",
+    "extract-text-webpack-plugin": "^2.0.0-beta",
+    "file-loader": "^0.11.1",
+    "image-webpack-loader": "^3.3.0",
+    "imports-loader": "^0.7.1",
+    "jquery": "^3.2.1",
+    "jquery-ui": "^1.12.1",
+    "jquery.cookie": "^1.4.1",
+    "raw-loader": "^0.5.1",
+    "style-loader": "~0.13.0",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
